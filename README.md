@@ -16,7 +16,7 @@
  
  ## Step 3 : load out put to database  
  `INSERT INTO javacode(java,name)
-VALUES
+\nVALUES
 ('56 (0x38 hex)',	'Java SE 12'),
 ('55 (0x37 hex)',	'Java SE 11'),
 ('54',	'Java SE 10'),
