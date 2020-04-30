@@ -15,6 +15,19 @@
  - `create table logjdk(java varchar(25),path varchar(25));`
  
  ## Step 3 : load out put to database  
- 
+ `INSERT INTO javacode(java,name)
+VALUES
+('56 (0x38 hex)',	'Java SE 12'),
+('55 (0x37 hex)',	'Java SE 11'),
+('54',	'Java SE 10'),
+('53',	'Java SE 9'),
+('52',	'Java SE 8'),
+('51',	'Java SE 7'),
+('50',	'Java SE 6.0'),
+('49',	'Java SE 5.0'),
+('48',	'JDK 1.4'),
+('47',	'JDK 1.3'),
+('46',	'JDK 1.2'),
+('45',	'JDK 1.1');`
 
 
