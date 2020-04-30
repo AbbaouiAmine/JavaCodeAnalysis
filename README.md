@@ -15,7 +15,8 @@
  - `create table logjdk(java varchar(25),path varchar(25));`
  
  ## Step 3 : load out put to database  
- ```
+### Load java codes
+```
  INSERT INTO javacode(java,name)  
 VALUES  
 ('56 (0x38 hex)',	'Java SE 12'),
@@ -31,5 +32,12 @@ VALUES
 ('46',	'JDK 1.2'),
 ('45',	'JDK 1.1');
 ```
+### load animalsniffer output 
+
+`LOAD DATA INFILE 'rpath' INTO TABLE logjdk FIELDS TERMINATED BY ' ';`
+
+ ## Step 4 : Select information
+ 
+ 
 
 
