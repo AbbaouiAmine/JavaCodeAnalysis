@@ -38,14 +38,14 @@ VALUES
 
  ## Step 4 : Select information
  
- ###Select JDK statistics
+ ### Select JDK statistics
  ```
 select count(*) as 'Total',j.name 
 from logjdk as l,javaCode as j 
 where  CAST(l.java as DECIMAL(9,2))=CAST(j.java as DECIMAL(9,2)) group by l.java;
  ```
  
-  ###Percentage statistics
+  ### Percentage statistics
  ```
 select concat((
 	count(*)/(select count(*) 
